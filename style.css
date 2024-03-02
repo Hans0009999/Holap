@@ -1,0 +1,176 @@
+/* reset css */
+
+* {
+    min-width: 0;
+    font: inherit;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  img,
+  video,
+  svg {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  body {
+    margin: 0;
+    min-height: 100dvh;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  
+  p {
+    text-wrap: pretty;
+  }
+  
+  /* starts here */
+  
+  body {
+    background-color: rgb(35, 168, 82);
+    height: 100vh;
+  
+    & main {
+  
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      & h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        font-weight: 700;
+      }
+  
+      & .options {
+        font-size: 1.5rem;
+        font-weight: 600;
+  
+  
+        & button {
+          padding: .5rem 1.5rem;
+          border: 2px solid rgba(0, 0, 0, .9);
+          border-radius: 5px;
+          cursor: pointer;
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+        }
+  
+        & button:hover {
+          box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+        }
+  
+        & button#yes {
+          background-color: #be1f1f;
+          margin-right: 2rem;
+        }
+      }
+    }
+  }
+  
+
+
+
+
+  #message {
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(52, 165, 203);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & h1 {
+      font-size: 3rem;
+      text-align: center;
+      font-weight: 600;
+      line-height: 4rem;
+    }
+    & button {
+      padding: .5rem 1.5rem;
+      border: 2px solid rgba(0, 0, 0, .9);
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    }
+
+    & button:hover {
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+    }
+
+    & button#yes1 {
+      background-color: #aa2faa;
+      margin-right: 2rem;
+  }
+}
+
+
+
+#message1 {
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  background-color: palegoldenrod;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 4rem;
+  }
+  & button {
+    padding: .5rem 1.5rem;
+    border: 2px solid rgba(0, 0, 0, .9);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+  }
+
+  & button:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+  }
+
+  & button#yes3 {
+    background-color: #16a044;
+    margin-right: 2rem;
+  }
+  & button#no {
+  background-color: #ba330d;
+  }
+}
+
+
+#message2 {
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(24, 107, 107);
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 4rem;
+  }
+}
