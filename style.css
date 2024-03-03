@@ -27,11 +27,11 @@
   h1,
   h2,
   h3 {
-    text-wrap: balance;
+    text-wrap: black;
   }
   
   p {
-    text-wrap: pretty;
+    text-wrap: black;
   }
   
   /* starts here */
